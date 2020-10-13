@@ -1,0 +1,617 @@
+
+        msgid ""
+
+        msgstr ""
+
+        "Project-Id-Version: WeberZ\n"
+
+        "POT-Creation-Date: 2019-01-22 16:42+0330\n"
+
+        "PO-Revision-Date: 2019-01-22 16:55+0330\n"
+
+        "Last-Translator: \n"
+
+        "Language-Team: \n"
+
+        "Language: fa_IR\n"
+
+        "MIME-Version: 1.0\n"
+
+        "Content-Type: text/plain; charset=UTF-8\n"
+
+        "Content-Transfer-Encoding: 8bit\n"
+
+        "X-Generator: Poedit 2.1.1\n"
+
+        "X-Poedit-Basepath: ..\n"
+
+        "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+        "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+
+        "X-Poedit-WPHeader: style.css\n"
+
+        "X-Poedit-SourceCharset: UTF-8\n"
+
+        "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+
+        "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+
+        "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+
+        "X-Poedit-SearchPath-0: .\n"
+
+        "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+        
+
+        msgid "Abort Upload"
+msgstr "لغو آپلود"
+
+msgid "Access to admin pages"
+msgstr "دسترسی به صفحات ادمین"
+
+msgid "Add"
+msgstr "افزودن"
+
+msgid "Add User"
+msgstr "افزودن کاربر"
+
+msgid "Administrator"
+msgstr "مدیر کل"
+
+msgid "All"
+msgstr "همه"
+
+msgid "Allowed formats"
+msgstr "فرمت های مجاز"
+
+msgid "Are you sure about this ?"
+msgstr "آیا درباره این کار مطمئن هستید ؟"
+
+msgid "Blog Editor"
+msgstr "نویسنده وبلاگ"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Capabilities"
+msgstr "دسترسی ها"
+
+msgid "Capability"
+msgstr "دسترسی"
+
+msgid "Capability Categories"
+msgstr "دسته بندی دسترسی ها"
+
+msgid "Capability Category"
+msgstr "دسته بندی دسترسی ها"
+
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+msgid "Category"
+msgstr "دسته بندی"
+
+msgid "Choose ..."
+msgstr "انتخاب کنید ..."
+
+msgid "Choose size"
+msgstr "انتخاب اندازه"
+
+msgid "Create Capability"
+msgstr "ساخت دسترسی"
+
+msgid "Create Capability Category"
+msgstr "ساخت دسته بندی دسترسی"
+
+msgid "Create Role"
+msgstr "ساخت نقش"
+
+msgid "Create User"
+msgstr "ساخت کاربر"
+
+msgid "Current Capabilities"
+msgstr "دسترسی های فعلی"
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete Role"
+msgstr "حذف نقش"
+
+msgid "Delete User"
+msgstr "حذف کاربر"
+
+msgid "Done"
+msgstr "انجام شد"
+
+msgid "Drop files here"
+msgstr "فایل ها را اینجا رها کنید"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Edit Capabilities"
+msgstr "ویرایش دسترسی ها"
+
+msgid "Edit Capability Categories"
+msgstr "ویرایش دسته بندی دسترسی ها"
+
+msgid "Edit Media"
+msgstr "ویرایش رسانه"
+
+msgid "Edit Profile"
+msgstr "ویرایش پروفایل"
+
+msgid "Edit Role"
+msgstr "ویرایش نقش"
+
+msgid "Edit Roles"
+msgstr "ویرایش نقش ها"
+
+msgid "Edit User"
+msgstr "ویرایش کاربر"
+
+msgid "Email"
+msgstr "ایمیل"
+
+msgid "File Title"
+msgstr "عنوان فایل"
+
+msgid "File Url"
+msgstr "آدرس فایل"
+
+msgid "File format is not allowed"
+msgstr "فرمت فایل مجاز نیست"
+
+msgid "File format is not allowedapplication/x-zip-compressed"
+msgstr "File format is not allowedapplication/x-zip-compressed"
+
+msgid "File format is not valid"
+msgstr "فرمت پرونده معتبر نمیباشد"
+
+msgid "File size is not valid"
+msgstr "حجم پرونده معتبر نمیباشد"
+
+msgid "First"
+msgstr "اول"
+
+msgid "Full"
+msgstr "کامل"
+
+msgid "Hello"
+msgstr "سلام"
+
+msgid "If you don't want to change password, just leave it empty"
+msgstr "اگر نمیخواهید رمز عبور را تغییر دهید کافیست جای آن را خالی بگذارید"
+
+msgid "Language"
+msgstr "زبان"
+
+msgid "Last"
+msgstr "آخر"
+
+msgid "List"
+msgstr "لیست"
+
+msgid "Login"
+msgstr "ورود"
+
+msgid "Login to admin"
+msgstr "ورود به ادمین"
+
+msgid "Logout"
+msgstr "خروج"
+
+msgid "Maximum Allowed size"
+msgstr "حداکثر حجم مجاز"
+
+msgid "Media"
+msgstr "رسانه"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Next"
+msgstr "بعد"
+
+msgid "Nick Name"
+msgstr "نام مستعار"
+
+msgid "No"
+msgstr "خیر"
+
+msgid "OK"
+msgstr "باشه"
+
+msgid "Only English"
+msgstr "فقط انگلیسی"
+
+msgid "Operation"
+msgstr "عملیات"
+
+msgid "Operation Successful"
+msgstr "عملیات موفقیت آمیز"
+
+msgid "Operation successful"
+msgstr "عملیات موفقیت آمیز"
+
+msgid "Password"
+msgstr "رمز عبور"
+
+msgid "Password must be at least 8 characters"
+msgstr "رمز عبور باید حداقل 8 حرف باشد"
+
+msgid "Please enter Category"
+msgstr "لطفا دسته بندی  را وارد نمایید"
+
+msgid "Please enter Email"
+msgstr "لطفا ایمیل را وارد نمایید"
+
+msgid "Please enter Password"
+msgstr "لطفا رمز عبور  را وارد نمایید"
+
+msgid "Please enter Role"
+msgstr "لطفا نقش را وارد نمایید"
+
+msgid "Please enter User Name"
+msgstr "لطفا نام کاربری را وارد نمایید"
+
+msgid "Please enter a Valid Email"
+msgstr "لطفا یک ایمیل معتبر را وارد نمایید"
+
+msgid "Please enter name"
+msgstr "لطفا نام را وارد نمایید"
+
+msgid "Please enter title"
+msgstr "لطفا عنوان را وارد نمایید"
+
+msgid "Previous"
+msgstr "قبل"
+
+msgid "Problem with saving data"
+msgstr "مشکل در ذخیره اطلاعات"
+
+msgid "Programmer"
+msgstr "برنامه نویس"
+
+msgid "Put Image"
+msgstr "قرار دادن تصویر"
+
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Role"
+msgstr "نقش"
+
+msgid "Roles"
+msgstr "نقش ها"
+
+msgid "Route Name"
+msgstr "نام مسیر"
+
+msgid "Row"
+msgstr "ردیف"
+
+msgid "Search"
+msgstr "جستجو"
+
+msgid "See Capabilities"
+msgstr "مشاهده دسترسی ها"
+
+msgid "See Capability Categories"
+msgstr "مشاهده دسته بندی دسترسی ها"
+
+msgid "See Dashboard"
+msgstr "مشاهده داشبورد"
+
+msgid "See Roles"
+msgstr "مشاهده نقش ها"
+
+msgid "See Users"
+msgstr "مشاهده کاربر ها"
+
+msgid "Set as default Role"
+msgstr "قرار دادن به عنوان نقش پیش فرض"
+
+msgid "Shop Author"
+msgstr "نویسنده فروشگاه"
+
+msgid "Sort Order"
+msgstr "ترتیب"
+
+msgid "String"
+msgstr "رشته"
+
+msgid "String Translation"
+msgstr "ترجمه رشته"
+
+msgid "Submit"
+msgstr "ثبت"
+
+msgid "Text Domain"
+msgstr "دامنه متن"
+
+msgid "This Role is not editable"
+msgstr "این نقش قابل ویرایش نیست"
+
+msgid "This User is not editable"
+msgstr "این کاربر  قابل ویرایش نیست"
+
+msgid "This email already exist"
+msgstr "این ایمیل هم اکنون وجود دارد"
+
+msgid "This name already exist"
+msgstr "این نام هم اکنون وجود دارد"
+
+msgid "This user name already exist"
+msgstr "این نام کاربری هم اکنون وجود دارد"
+
+msgid "Thumbnail"
+msgstr "بندانگشتی"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Translation"
+msgstr "ترجمه"
+
+msgid "Update"
+msgstr "بروزرسانی"
+
+msgid "Upload"
+msgstr "بارگذاری"
+
+msgid "Upload File"
+msgstr "بارگذاری پرونده"
+
+msgid "Upload Image"
+msgstr "بارگذاری تصویر"
+
+msgid "User"
+msgstr "کاربر"
+
+msgid "User Name"
+msgstr "نام کاربری"
+
+msgid "Users"
+msgstr "کاربرها"
+
+msgid "Weberz Admin"
+msgstr "Weberz Admin"
+
+msgid "Widget"
+msgstr "ابزارک"
+
+msgid "Yes"
+msgstr "بله"
+
+msgid "Your Email"
+msgstr "ایمیل شما"
+
+msgid "there's a problem with saving data, Please try again"
+msgstr "در ذخیره اطلاعات مشکلی پیش آمد لطفا مجددا تلاش نمایید"
+
+msgid "Languages"
+msgstr "زبان ها"
+
+msgid "Edit translations"
+msgstr "ویرایش ترجمه ها"
+
+msgid "Themes"
+msgstr "پوسته ها"
+
+msgid "See Themes"
+msgstr "مشاهده پوسته ها"
+
+msgid "Unknown"
+msgstr "نامشخص"
+
+msgid "Activate"
+msgstr "فعال کن"
+
+msgid "Publish"
+msgstr "انتشار"
+
+msgid "Test Theme"
+msgstr "پوسته آزمایشی"
+
+msgid "This is a professional theme that makes your site beauty"
+msgstr "این یک پوسته حرفه ای هست که سایت شما را زیبا میکند"
+
+msgid "Activate Theme"
+msgstr "فعال کردن پوسته"
+
+msgid "Publish Theme Styles"
+msgstr "انتشار استایل های پوسته"
+
+msgid "Activate Themes"
+msgstr "فعال کردن پوسته ها"
+
+msgid "Publish Themes"
+msgstr "انتشار پوسته ها"
+
+msgid "Pages"
+msgstr "صفحه ها"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Page"
+msgstr "صفحه"
+
+msgid "Place the page title here"
+msgstr "عنوان صفحه را اینجا قرار دهید"
+
+msgid "Slug"
+msgstr "نامک"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Add Page"
+msgstr "افزودن صفحه"
+
+msgid "See Pages"
+msgstr "مشاهده صفحات"
+
+msgid "Create Pages"
+msgstr "ساختن صفحات"
+
+msgid "Edit Pages"
+msgstr "ویرایش صفحات"
+
+msgid "Delete Pages"
+msgstr "حذف صفحات"
+
+msgid "Draft"
+msgstr "پیش نویس"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Choose a status"
+msgstr "یک وضعیت را انتخاب کنید"
+
+msgid "Please enter Title"
+msgstr "لطفا عنوان را وارد نمایید"
+
+msgid "Edit Page"
+msgstr "ویرایش صفحه"
+
+msgid "See Self Files"
+msgstr "مشاهده فایل های خود"
+
+msgid "See Other's Files"
+msgstr "مشاهده فایل های دیگران"
+
+msgid "Upload Images"
+msgstr "آپلود تصویر"
+
+msgid "Upload Other Type Files"
+msgstr "آپلود انواع دیگر فایل"
+
+msgid "Update Self Files"
+msgstr "بروزرسانی فایل های خود"
+
+msgid "Update Other's Files"
+msgstr "بروزرسانی فایل های دیگران"
+
+msgid "Delete Self Files"
+msgstr "حذف فایل های خود"
+
+msgid "Delete Other's Files"
+msgstr "حذف فایل های دیگران"
+
+msgid "Posts"
+msgstr "پست ها"
+
+msgid "Post"
+msgstr "پست"
+
+msgid "Place the Post title here"
+msgstr "عنوان پس را اینجا قرار دهید"
+
+msgid "Add Post"
+msgstr "افزودن پست"
+
+msgid "Image"
+msgstr "تصویر"
+
+msgid "Default"
+msgstr "پیشفرض"
+
+msgid "Video"
+msgstr "ویدیو"
+
+msgid "Gallery"
+msgstr "گالری"
+
+msgid "Quote"
+msgstr "نقل قول"
+
+msgid "Type"
+msgstr "نوع"
+
+msgid "Place the post title here"
+msgstr "عنوان پست را اینجا قرار دهید"
+
+msgid "Edit Post"
+msgstr "ویرایش پست"
+
+msgid "See Posts"
+msgstr "مشاهده پست ها"
+
+msgid "See Other Posts"
+msgstr "مشاهده پست های دیگران"
+
+msgid "Create Posts"
+msgstr "ساختن پست"
+
+msgid "Edit Posts"
+msgstr "ویرایش پست ها"
+
+msgid "Edit Other Posts"
+msgstr "ویرایش پست های دیگران"
+
+msgid "Delete Posts"
+msgstr "حذف پست ها"
+
+msgid "Delete Other Posts"
+msgstr "حذف پست های دیگران"
+
+msgid "Post Categories"
+msgstr "دسته بندی پست ها"
+
+msgid "See Categories"
+msgstr "دیدن دسته بندی ها"
+
+msgid "Create Categories"
+msgstr "ساختن دسته بندی ها"
+
+msgid "Edit Categories"
+msgstr "ویرایش دسته بندی"
+
+msgid "Delete Categories"
+msgstr "حذف دسته بندی ها"
+
+msgid "No Parent"
+msgstr "بدون والد"
+
+msgid "Edit Category"
+msgstr "ویرایش دسته بندی"
+
+msgid "Parent"
+msgstr "والد"
+
+msgid "Please enter slug"
+msgstr "لطفا نامک را وارد کنید"
+
+msgid "Instagram Post"
+msgstr "Instagram Post"
+
+msgid "Seo"
+msgstr "Seo"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "The post description that we put on meta tags"
+msgstr "The post description that we put on meta tags"
+
+msgid "Keywords"
+msgstr "Keywords"
+
+msgid "The post keywords that we put on meta tags"
+msgstr "The post keywords that we put on meta tags"
+

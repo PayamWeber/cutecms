@@ -1,0 +1,116 @@
+.media-upload-buttons img{
+    max-width: 200px;
+    min-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.36);
+}
+
+.media-upload-buttons p{
+    margin: 0;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.36);
+    display: inline-block;
+    line-height: 0.8;
+    color: rgb(66, 165, 245);
+}
+
+.media-upload-buttons .button{
+    border: none;
+    background: #42A5F5;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: .8;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.19);
+}
+
+.media-upload-buttons .delete-current-media{
+    background: #ff5252;
+}
+
+/*.media-upload-buttons .this-buttons{*/
+    /*padding : 10px 0;*/
+/*}*/
+
+#media-modal .this-loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#media-modal .this-loader.show-this{
+    opacity: 1;
+    visibility: visible;
+}
+
+#media-modal .image-size-select {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    background: white;
+    width: 200px;
+    box-shadow: 0 0 10px #0003;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#media-modal .image-size-select.show-this {
+    opacity: 1;
+    visibility: visible;
+}
+
+#media-modal .image-size-select .this-caption {
+    padding: 10px 0;
+    text-align: center;
+    background: #6381e6;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+#media-modal .image-size-select ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#media-modal .image-size-select ul li {
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    margin-top: 5px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#media-modal .image-size-select ul li:hover {
+    background: #ececec;
+}
+
+.card-body #fileuploader{
+    float: right;
+    top: 0 !important;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,21 @@
+.skin [class*="icheckbox_"], .skin [class*="iradio_"], .icheck_square [class*="icheckbox_"], .icheck_square [class*="iradio_"] {
+    margin-right: 0rem;
+    margin-left: 0.6rem;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child {
+    border-right-width: 1px;
+    border-left-width: 0;
+}
+
+.main-menu.menu-dark .navigation > li ul .open > ul li > a {
+    padding: 8px 80px 8px 18px;
+}
+
+.pull-left{
+    float: right;
+}
+
+.pull-right{
+    float: left;
+}

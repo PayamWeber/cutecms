@@ -1,0 +1,485 @@
+
+        msgid ""
+
+        msgstr ""
+
+        "Project-Id-Version: WeberZ\n"
+
+        "POT-Creation-Date: 2019-01-22 16:42+0330\n"
+
+        "PO-Revision-Date: 2019-01-22 16:55+0330\n"
+
+        "Last-Translator: \n"
+
+        "Language-Team: \n"
+
+        "Language: en_US\n"
+
+        "MIME-Version: 1.0\n"
+
+        "Content-Type: text/plain; charset=UTF-8\n"
+
+        "Content-Transfer-Encoding: 8bit\n"
+
+        "X-Generator: Poedit 2.1.1\n"
+
+        "X-Poedit-Basepath: ..\n"
+
+        "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+        "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+
+        "X-Poedit-WPHeader: style.css\n"
+
+        "X-Poedit-SourceCharset: UTF-8\n"
+
+        "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+
+        "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+
+        "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+
+        "X-Poedit-SearchPath-0: .\n"
+
+        "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+        
+
+        msgid "Login to admin"
+msgstr "Login to admin"
+
+msgid "Your Email"
+msgstr "Your Email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Remember me"
+msgstr "Remember me"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "String Translation"
+msgstr "String Translation"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Widget"
+msgstr "Widget"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Row"
+msgstr "Row"
+
+msgid "Text Domain"
+msgstr "Text Domain"
+
+msgid "String"
+msgstr "String"
+
+msgid "Translation"
+msgstr "Translation"
+
+msgid "Operation"
+msgstr "Operation"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Operation Successful"
+msgstr "Operation Successful"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Weberz Admin"
+msgstr "Weberz Admin"
+
+msgid "Hello"
+msgstr "Hello"
+
+msgid "Edit Profile"
+msgstr "Edit Profile"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "All"
+msgstr "All"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Roles"
+msgstr "Roles"
+
+msgid "Programmer"
+msgstr "Programmer"
+
+msgid "Capabilities"
+msgstr "Capabilities"
+
+msgid "List"
+msgstr "List"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Full"
+msgstr "Full"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Choose size"
+msgstr "Choose size"
+
+msgid "Are you sure about this ?"
+msgstr "Are you sure about this ?"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Drop files here"
+msgstr "Drop files here"
+
+msgid "Abort Upload"
+msgstr "Abort Upload"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "File format is not valid"
+msgstr "File format is not valid"
+
+msgid "File size is not valid"
+msgstr "File size is not valid"
+
+msgid "Allowed formats"
+msgstr "Allowed formats"
+
+msgid "Maximum Allowed size"
+msgstr "Maximum Allowed size"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "First"
+msgstr "First"
+
+msgid "Last"
+msgstr "Last"
+
+msgid "Choose ..."
+msgstr "Choose ..."
+
+msgid "Capability"
+msgstr "Capability"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Only English"
+msgstr "Only English"
+
+msgid "Route Name"
+msgstr "Route Name"
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Current Capabilities"
+msgstr "Current Capabilities"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Capability Category"
+msgstr "Capability Category"
+
+msgid "Sort Order"
+msgstr "Sort Order"
+
+msgid "Capability Categories"
+msgstr "Capability Categories"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Role"
+msgstr "Role"
+
+msgid "User"
+msgstr "User"
+
+msgid "User Name"
+msgstr "User Name"
+
+msgid "Nick Name"
+msgstr "Nick Name"
+
+msgid "Edit User"
+msgstr "Edit User"
+
+msgid "If you don't want to change password, just leave it empty"
+msgstr "If you don't want to change password, just leave it empty"
+
+msgid "Add User"
+msgstr "Add User"
+
+msgid "Access to admin pages"
+msgstr "Access to admin pages"
+
+msgid "Set as default Role"
+msgstr "Set as default Role"
+
+msgid "Edit Role"
+msgstr "Edit Role"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "File Url"
+msgstr "File Url"
+
+msgid "File Title"
+msgstr "File Title"
+
+msgid "Edit Media"
+msgstr "Edit Media"
+
+msgid "Problem with saving data"
+msgstr "Problem with saving data"
+
+msgid "See Dashboard"
+msgstr "See Dashboard"
+
+msgid "See Capabilities"
+msgstr "See Capabilities"
+
+msgid "Create Capability"
+msgstr "Create Capability"
+
+msgid "Edit Capabilities"
+msgstr "Edit Capabilities"
+
+msgid "See Capability Categories"
+msgstr "See Capability Categories"
+
+msgid "Create Capability Category"
+msgstr "Create Capability Category"
+
+msgid "Edit Capability Categories"
+msgstr "Edit Capability Categories"
+
+msgid "See Roles"
+msgstr "See Roles"
+
+msgid "Create Role"
+msgstr "Create Role"
+
+msgid "Edit Roles"
+msgstr "Edit Roles"
+
+msgid "Delete Role"
+msgstr "Delete Role"
+
+msgid "See Users"
+msgstr "See Users"
+
+msgid "Create User"
+msgstr "Create User"
+
+msgid "Delete User"
+msgstr "Delete User"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Blog Editor"
+msgstr "Blog Editor"
+
+msgid "Shop Author"
+msgstr "Shop Author"
+
+msgid "Sign Up"
+msgstr "Sign Up"
+
+msgid "Forgot your password ?"
+msgstr "Forgot your password ?"
+
+msgid "Recover Password"
+msgstr "Recover Password"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Register Form"
+msgstr "Register Form"
+
+msgid "Password Confirmation"
+msgstr "Password Confirmation"
+
+msgid "Captcha"
+msgstr "Captcha"
+
+msgid "Themes"
+msgstr "Themes"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Publish Theme Styles"
+msgstr "Publish Theme Styles"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Activate Theme"
+msgstr "Activate Theme"
+
+msgid "Activate"
+msgstr "Activate"
+
+msgid "Operation successful"
+msgstr "Operation successful"
+
+msgid "See Themes"
+msgstr "See Themes"
+
+msgid "Activate Themes"
+msgstr "Activate Themes"
+
+msgid "Publish Themes"
+msgstr "Publish Themes"
+
+msgid "Languages"
+msgstr "Languages"
+
+msgid "Edit translations"
+msgstr "Edit translations"
+
+msgid "Please enter User Name"
+msgstr "Please enter User Name"
+
+msgid "Please enter Email"
+msgstr "Please enter Email"
+
+msgid "Please enter a Valid Email"
+msgstr "Please enter a Valid Email"
+
+msgid "Please enter Password"
+msgstr "Please enter Password"
+
+msgid "Password must be at least 8 characters"
+msgstr "Password must be at least 8 characters"
+
+msgid "Please enter Role"
+msgstr "Please enter Role"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Place the page title here"
+msgstr "Place the page title here"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Upload File"
+msgstr "Upload File"
+
+msgid "Put Image"
+msgstr "Put Image"
+
+msgid "Choose a status"
+msgstr "Choose a status"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Edit Page"
+msgstr "Edit Page"
+
+msgid "Pages"
+msgstr "Pages"
+
+msgid "Add Page"
+msgstr "Add Page"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Post"
+msgstr "Post"
+
+msgid "Place the Post title here"
+msgstr "Place the Post title here"
+
+msgid "Add Post"
+msgstr "Add Post"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Upload Image"
+msgstr "Upload Image"
+
+msgid "Posts"
+msgstr "Posts"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Gallery"
+msgstr "Gallery"
+
+msgid "Quote"
+msgstr "Quote"
+
+msgid "Type"
+msgstr "Type"
+
