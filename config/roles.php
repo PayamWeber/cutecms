@@ -28,6 +28,47 @@ return [
                 ],
             ],
         ],
+        [
+            'title' => 'Tasks',
+            'name' => 'tasks',
+            'caps' => [
+                [
+                    'title' => 'See Tasks',
+                    'name' => 'task_index',
+                    'route' => 'admin.task.index',
+                ],
+                [
+                    'title' => 'See Others Tasks',
+                    'name' => 'task_index_other',
+                    'route' => 'admin.task.index',
+                ],
+                [
+                    'title' => 'Create Tasks',
+                    'name' => 'task_create',
+                    'route' => [ 'admin.task.store' ],
+                ],
+                [
+                    'title' => 'Edit Tasks',
+                    'name' => 'task_edit',
+                    'route' => [ 'admin.task.edit', 'admin.task.update' ],
+                ],
+                [
+                    'title' => 'Edit Others Tasks',
+                    'name' => 'task_edit_other',
+                    'route' => [ 'admin.task.edit', 'admin.task.update' ],
+                ],
+                [
+                    'title' => 'Delete Tasks',
+                    'name' => 'task_delete',
+                    'route' => 'admin.task.destroy',
+                ],
+                [
+                    'title' => 'Delete Others Tasks',
+                    'name' => 'task_delete_other',
+                    'route' => 'admin.task.destroy',
+                ],
+            ],
+        ],
 		[
 			'title' => 'Pages',
 			'name' => 'page',

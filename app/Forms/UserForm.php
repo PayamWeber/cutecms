@@ -217,12 +217,6 @@ class UserForm
         $additional_options = [];
         if ( $cap_cats )
         {
-            if ( $model )
-            {
-                if ( is_array( json_decode( $model->capabilities, true ) ) )
-                    $model->capabilities = json_decode( $model->capabilities, true );
-            }
-
             $additional_options['capability'] = [
                 'type' => 'blank',
                 'col' => 12,

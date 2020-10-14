@@ -573,3 +573,78 @@ msgstr "The post keywords that we put on meta tags"
 msgid "Instagram Post"
 msgstr "Instagram Post"
 
+msgid "Tasks"
+msgstr "Tasks"
+
+msgid "No Parent"
+msgstr "No Parent"
+
+msgid "Parent"
+msgstr "Parent"
+
+msgid "Priority"
+msgstr "Priority"
+
+msgid "Low"
+msgstr "Low"
+
+msgid "High"
+msgstr "High"
+
+msgid "Task"
+msgstr "Task"
+
+msgid "See Tasks"
+msgstr "See Tasks"
+
+msgid "See Others Tasks"
+msgstr "See Others Tasks"
+
+msgid "Create Tasks"
+msgstr "Create Tasks"
+
+msgid "Edit Tasks"
+msgstr "Edit Tasks"
+
+msgid "Edit Others Tasks"
+msgstr "Edit Others Tasks"
+
+msgid "Delete Tasks"
+msgstr "Delete Tasks"
+
+msgid "Delete Others Tasks"
+msgstr "Delete Others Tasks"
+
+msgid "Please enter title"
+msgstr "Please enter title"
+
+msgid "Please enter description"
+msgstr "Please enter description"
+
+msgid "Please enter Priority"
+msgstr "Please enter Priority"
+
+msgid "Todo"
+msgstr "Todo"
+
+msgid "Doing"
+msgstr "Doing"
+
+msgid "Edit Category"
+msgstr "Edit Category"
+
+msgid "Edit Task"
+msgstr "Edit Task"
+
+msgid "Move task to"
+msgstr "Move task to"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Please enter status"
+msgstr "Please enter status"
+

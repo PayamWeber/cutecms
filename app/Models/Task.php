@@ -71,15 +71,15 @@ class Task extends BaseModel
         $prios = [
             self::PRIORITY_LOW => [
                 'name' => lang( 'Low' ),
-                'color' => '#fff',
+                'color' => 'secondary',
             ],
             self::PRIORITY_MEDIUM => [
                 'name' => lang( 'Medium' ),
-                'color' => '#fff',
+                'color' => 'primary',
             ],
             self::PRIORITY_HIGH => [
                 'name' => lang( 'High' ),
-                'color' => '#fff',
+                'color' => 'danger',
             ],
         ];
 

@@ -6,6 +6,13 @@ return [
 		"icon" => "la-home",
 		"capability" => "dashboard_index",
 	],
+	"tasks" => [
+		"title" => 'Tasks',
+		"icon" => "la-paperclip",
+		"capability" => [],
+        'url' => 'admin.task.index',
+		"sub" => [],
+	],
 	"pages" => [
 		"title" => 'Pages',
 		"icon" => "la-users",

@@ -111,6 +111,8 @@ Route::middleware( [ 'auth', 'admin', 'capability' ] )
             Route::resource( '/page', 'Admin\Page\PageController', [ 'except' => [ 'show' ] ] );
             Route::resource( '/post', 'Admin\Post\PostsController', [ 'except' => [ 'show' ] ] );
             Route::resource( '/post_category', 'Admin\Post\PostCategoryController', [ 'except' => [ 'show' ] ] );
+            Route::resource( '/task', 'Admin\Task\TaskController', [ 'except' => [ 'show' ] ] );
+            Route::post( '/task/{id}/move', 'Admin\Task\TaskController@move' )->name('task.move');
         } );
     } );
 
@@ -118,6 +120,3 @@ Route::middleware( [ 'auth', 'admin', 'capability' ] )
  * load page
  */
 Route::get( '/{slug}', 'Admin\Page\PageController@show' );
-
-Route::get( '/admins/media', 'Admin\Media\MediaController@index' )->name( 'media.index' );
-
