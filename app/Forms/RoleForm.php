@@ -205,12 +205,6 @@ class RoleForm
         $additional_options = [];
         if ( $cap_cats )
         {
-            if ( $model )
-            {
-                if ( is_array( json_decode( $model->capabilities, true ) ) )
-                    $model->capabilities = json_decode( $model->capabilities, true );
-            }
-
             foreach ( $cap_cats as $cat )
             {
                 $additional_options[] = [
