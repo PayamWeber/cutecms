@@ -20,7 +20,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}auth/login?email=payam.jafari12@gmail.com&password=19734682",
+							"raw": "{{url}}auth/login?email=admin@example.com&password=123456789",
 							"host": [
 								"{{url}}auth"
 							],
@@ -30,11 +30,11 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "payam.jafari12@gmail.com"
+									"value": "admin@example.com"
 								},
 								{
 									"key": "password",
-									"value": "19734682"
+									"value": "123456789"
 								}
 							]
 						}
@@ -280,33 +280,18 @@
 							"formdata": [
 								{
 									"key": "_method",
-									"value": "patch",
-									"type": "text"
-								},
-								{
-									"key": "priority",
-									"value": "15",
-									"type": "text"
-								},
-								{
-									"key": "title",
-									"value": "Test title for task5454",
-									"type": "text"
-								},
-								{
-									"key": "description",
-									"value": "lurem ipsum test description5454",
+									"value": "delete",
 									"type": "text"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{url}}task/4",
+							"raw": "{{url}}task/5",
 							"host": [
 								"{{url}}task"
 							],
 							"path": [
-								"4"
+								"5"
 							]
 						}
 					},

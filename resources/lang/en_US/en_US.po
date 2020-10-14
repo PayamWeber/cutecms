@@ -648,3 +648,6 @@ msgstr "Save"
 msgid "Please enter status"
 msgstr "Please enter status"
 
+msgid "Please enter name"
+msgstr "Please enter name"
+
