@@ -9,15 +9,15 @@ Nice to see that you wanna clone this app, enjoy!
 
 **2.** Duplicate file "`.env.example`" and rename it to "`.env`" and modify configs to your needs.
 
-**2.** Run "`php artisan key:generate`" command.
+**3.** Run "`php artisan key:generate`" command.
 
-**3.** Run "`php artisan migrate`" command.
+**4.** Run "`php artisan migrate`" command.
 
-**4.** Run "`php artisan roles:generate`" command.
+**5.** Run "`php artisan roles:generate`" command.
 
-**5.** Run "`php artisan db:seed`" command.
+**6.** Run "`php artisan db:seed`" command.
 
-**6.** Go to page "{url}/login" and use these credensials:
+**7.** Go to page "{url}/login" and use these credensials:
 
 email: admin@example.com
 
