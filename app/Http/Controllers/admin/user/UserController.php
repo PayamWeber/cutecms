@@ -75,7 +75,7 @@ class UserController extends Controller
             $model->email        = $request->email;
             $model->password     = Hash::make( $request->password );
             $model->role_id      = $request->role_id;
-            $model->capabilities = json_encode( $request->capability, JSON_UNESCAPED_UNICODE );
+            $model->capabilities = $request->capability;
             if ( $model->save() )
             {
                 $model->set_meta( UserMeta::META_AVATAR, $request->avatar_id );
@@ -141,7 +141,7 @@ class UserController extends Controller
             if ( $request->password )
                 $model->password     = Hash::make( $request->password );
             $model->role_id      = $request->role_id;
-            $model->capabilities = json_encode( $request->capability, JSON_UNESCAPED_UNICODE );
+            $model->capabilities = $request->capability;
             if ( $model->save() )
             {
                 $model->set_meta( UserMeta::META_AVATAR, $request->avatar_id );

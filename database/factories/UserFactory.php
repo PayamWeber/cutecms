@@ -17,7 +17,7 @@ class UserFactory extends Factory
      */
     protected $model = User::class;
 
-    public $role = 'administrator';
+    public $role = 'blog';
 
     /**
      * Define the model's default state.

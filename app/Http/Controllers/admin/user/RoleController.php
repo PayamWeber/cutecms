@@ -61,7 +61,7 @@ class RoleController extends Controller
             $model->name         = $request->name;
             $model->is_admin     = $request->is_admin ? '1' : '0';
             $model->is_default   = $request->is_default ? '1' : '0';
-            $model->capabilities = json_encode( $request->capability, JSON_UNESCAPED_UNICODE );
+            $model->capabilities = $request->capability;
 
             // switch default role
             if ( $request->is_default )
@@ -131,7 +131,7 @@ class RoleController extends Controller
             $model->name         = $request->name;
             $model->is_admin     = $request->is_admin ? '1' : '0';
             $model->is_default   = $request->is_default ? '1' : '0';
-            $model->capabilities = json_encode( $request->capability, JSON_UNESCAPED_UNICODE );
+            $model->capabilities = $request->capability;
 
             // switch default role
             if ( $request->is_default )
