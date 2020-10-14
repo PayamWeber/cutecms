@@ -1,4 +1,4 @@
-# Warning: App is not ready yet. Work in progress.
+# Warning: App is not completely ready yet. Work in progress.
 # TodoApp
 Hi, this is a project named TodoApp made for showing off my skills in laravel and php.
 Nice to see you wanna clone this app, enjoy!
@@ -11,3 +11,11 @@ Nice to see you wanna clone this app, enjoy!
 **3.** Run "`php artisan migrate`" command.
 
 **4.** Run "`php artisan roles:generate`" command.
+
+**5.** Run "`php artisan db:seed`" command.
+
+**6.** Go to page "{url}/login" and use these credensials:
+
+email: admin@example.com
+
+password:123456789
