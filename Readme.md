@@ -9,6 +9,8 @@ Nice to see that you wanna clone this app, enjoy!
 
 **2.** Duplicate file "`.env.example`" and rename it to "`.env`" and modify configs to your needs.
 
+**2.** Run "`php artisan key:generate`" command.
+
 **3.** Run "`php artisan migrate`" command.
 
 **4.** Run "`php artisan roles:generate`" command.
