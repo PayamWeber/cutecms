@@ -40,22 +40,6 @@ class Post extends BaseModel
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function postViews()
-    {
-        return $this->hasMany( PostView::class, 'post_id' );
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function postLikes()
-    {
-        return $this->hasMany( PostLike::class, 'post_id' );
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
     public function seo()
     {
         return $this->hasOne( PostSeo::class, 'post_id' );

@@ -9,11 +9,11 @@
         "fideloper/proxy": "^4.0",
         "fruitcake/laravel-cors": "^2.0",
         "intervention/image": "^2.4",
-        "laravel/framework": "^7.0",
+        "laravel/framework": "^8.0",
         "laravel/helpers": "^1.2",
         "laravel/sanctum": "^2.3",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^2.0",
+        "laravel/ui": "^3.0",
         "phpfastcache/phpfastcache": "^8.0",
         "raiym/instagram-php-scraper": "^0.9.9",
         "zendframework/zend-i18n": "^2.9",
@@ -24,8 +24,8 @@
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^4.1",
-        "phpunit/phpunit": "^8.5"
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "classmap": [

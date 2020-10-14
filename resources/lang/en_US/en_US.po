@@ -483,3 +483,93 @@ msgstr "Quote"
 msgid "Type"
 msgstr "Type"
 
+msgid "See Pages"
+msgstr "See Pages"
+
+msgid "Create Pages"
+msgstr "Create Pages"
+
+msgid "Edit Pages"
+msgstr "Edit Pages"
+
+msgid "Delete Pages"
+msgstr "Delete Pages"
+
+msgid "See Posts"
+msgstr "See Posts"
+
+msgid "See Other Posts"
+msgstr "See Other Posts"
+
+msgid "Create Posts"
+msgstr "Create Posts"
+
+msgid "Edit Posts"
+msgstr "Edit Posts"
+
+msgid "Edit Other Posts"
+msgstr "Edit Other Posts"
+
+msgid "Delete Posts"
+msgstr "Delete Posts"
+
+msgid "Delete Other Posts"
+msgstr "Delete Other Posts"
+
+msgid "Post Categories"
+msgstr "Post Categories"
+
+msgid "See Categories"
+msgstr "See Categories"
+
+msgid "Create Categories"
+msgstr "Create Categories"
+
+msgid "Edit Categories"
+msgstr "Edit Categories"
+
+msgid "Delete Categories"
+msgstr "Delete Categories"
+
+msgid "See Self Files"
+msgstr "See Self Files"
+
+msgid "See Other's Files"
+msgstr "See Other's Files"
+
+msgid "Upload Images"
+msgstr "Upload Images"
+
+msgid "Upload Other Type Files"
+msgstr "Upload Other Type Files"
+
+msgid "Update Self Files"
+msgstr "Update Self Files"
+
+msgid "Update Other's Files"
+msgstr "Update Other's Files"
+
+msgid "Delete Self Files"
+msgstr "Delete Self Files"
+
+msgid "Delete Other's Files"
+msgstr "Delete Other's Files"
+
+msgid "Seo"
+msgstr "Seo"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "The post description that we put on meta tags"
+msgstr "The post description that we put on meta tags"
+
+msgid "Keywords"
+msgstr "Keywords"
+
+msgid "The post keywords that we put on meta tags"
+msgstr "The post keywords that we put on meta tags"
+
+msgid "Instagram Post"
+msgstr "Instagram Post"
+

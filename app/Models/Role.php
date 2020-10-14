@@ -39,4 +39,9 @@ class Role extends Model
 		$model = self::where('is_default', '1')->first();
 		return $model ? $model : false;
     }
+
+    public static function findByName( $name )
+    {
+        return self::query()->where( 'name', $name )->first();
+    }
 }
