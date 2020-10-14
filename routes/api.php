@@ -36,6 +36,12 @@ Route::group( [
     ], function () {
         Route::get( '/', 'Api\Post\PostsController@index' );
     } );
+
+    Route::group( [
+        'middleware' => [ 'auth:sanctum' ],
+    ], function () {
+        Route::resource( '/task', 'Api\Task\TaskController' );
+    } );
 } );
 
 Route::post( '/admins/media', 'Admin\Media\MediaController@store' )->name( 'media.store' );

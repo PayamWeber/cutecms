@@ -1,7 +1,8 @@
 # Warning: App is not completely ready yet. Work in progress.
 # TodoApp
 Hi, this is a project named TodoApp made for showing off my skills in laravel and php.
-Nice to see you wanna clone this app, enjoy!
+
+Nice to see that you wanna clone this app, enjoy!
 
 ### Steps to make this app ready
 **1.** Run "`composer install`" command.
@@ -19,3 +20,7 @@ Nice to see you wanna clone this app, enjoy!
 email: admin@example.com
 
 password:123456789
+
+### Api Docs
+**-** Use postman collection provided in root folder named 
+"todoapp.postman_collection.json"

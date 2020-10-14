@@ -51,18 +51,18 @@ class BaseModel extends Model
      *
      * @return mixed
      */
-    public function scopeFilterByUser( $user = null )
+    public function scopeFilterByUser( $query, $user = null )
     {
         // filter by all users
         if ( $user === 'all' )
-            return $this->where( 'user_id', '!=', 0 );
+            return $query->where( 'user_id', '!=', 0 );
 
         $user = $user instanceof User ? $user->id : $user;
         $user = $user ? : ( auth()->user() ? auth()->user()->id : 0 );
 
         if ( ! $user )
-            return $this->where( 'user_id', 0 );
+            return $query->where( 'user_id', 0 );
 
-        return $this->where( 'user_id', $user );
+        return $query->where( 'user_id', $user );
     }
 }

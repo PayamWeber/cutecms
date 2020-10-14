@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin\Task;
+namespace App\Http\Controllers\Api\Task;
 
 use App\Forms\PostCategoryForm;
 use App\Forms\TaskForm;
@@ -15,13 +15,10 @@ use Illuminate\Support\Facades\Auth;
 
 class TaskController extends Controller
 {
-    protected $form;
-    protected $validation;
     public    $data;
 
     public function __construct( Request $request )
     {
-        $this->form = new TaskForm();
     }
 
     /**
@@ -29,10 +26,9 @@ class TaskController extends Controller
      */
     public function index( Request $request )
     {
-        $this->data[ 'form' ]          = $this->form->create();
-        $this->data[ 'rows_per_page' ] = 25;
-        $this->data[ 'models' ]        = $this->filter( $request );
-        return view( 'admin.task.index', $this->data );
+        return _api_response( true, [
+            'models' => $this->filter( $request )
+        ] );
     }
 
     /**
@@ -42,14 +38,15 @@ class TaskController extends Controller
      */
     public function store( Request $request )
     {
-        $this->form->validation( $request );
+        $this->validation( $request );
         $errors = [];
 
+        if ( ! isset( Task::getPriorities()[$request->get( 'priority' )] ) ){
+            $errors[] = lang( 'Priority is not valid' );
+        }
+
         if ( $errors ) {
-            foreach ( $errors as $error ) {
-                AlertHelper::make( $error, 'danger' );
-            }
-            return back()->withInput();
+            return _api_response( false, $errors );
         } else {
             $model              = new Task();
             $model->user_id     = Auth::id();
@@ -59,11 +56,13 @@ class TaskController extends Controller
             $model->description = $request->get( 'description' );
 
             if ( $model->save() ) {
-                AlertHelper::make( lang( 'Operation successful' ) );
-                return back();
+                return _api_response( true, [
+                    'id' => $model->id
+                ] );
             } else {
-                AlertHelper::make( lang( 'there\'s a problem with saving data, Please try again' ), 'danger' );
-                return back()->withInput();
+                return _api_response( false, [
+                    lang( 'there\'s a problem with saving data, Please try again' )
+                ] );
             }
         }
     }
@@ -72,16 +71,15 @@ class TaskController extends Controller
      * @param null    $id
      * @param Request $request
      *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function edit( $id = null, Request $request )
+    public function show( $id = null, Request $request )
     {
         $model                  = Task::filterByUser( is_user_can( 'task_edit_other' ) ? 'all' : auth()->user() )
             ->findOrFail( $id );
-        $this->data[ 'form' ]   = $this->form->edit( $model );
-        $this->data[ 'models' ] = $this->filter( $request );
-        $this->data[ 'model' ]  = $model;
-        return view( 'admin.task.edit', $this->data );
+        return _api_response( true, [
+            'model' => $model
+        ] );
     }
 
     /**
@@ -94,25 +92,28 @@ class TaskController extends Controller
     {
         $model = Task::filterByUser( is_user_can( 'task_edit_other' ) ? 'all' : auth()->user() )
             ->findOrFail( $model );
-        $this->form->validation( $request, true );
+        $this->validation( $request, true );
         $errors = [];
 
+        if ( ! isset( Task::getPriorities()[$request->get( 'priority' )] ) ){
+            $errors[] = lang( 'Priority is not valid' );
+        }
+
         if ( $errors ) {
-            foreach ( $errors as $error ) {
-                AlertHelper::make( $error, 'danger' );
-            }
-            return back();
+            return _api_response( false, $errors );
         } else {
             $model->priority    = $request->get( 'priority' );
             $model->title       = $request->get( 'title' );
             $model->description = $request->get( 'description' );
 
             if ( $model->save() ) {
-                AlertHelper::make( lang( 'Operation successful' ) );
-                return back();
+                return _api_response( true, [
+                    'id' => $model->id
+                ] );
             } else {
-                AlertHelper::make( lang( 'there\'s a problem with saving data, Please try again' ), 'danger' );
-                return back();
+                return _api_response( false, [
+                    lang( 'there\'s a problem with saving data, Please try again' )
+                ] );
             }
         }
     }
@@ -163,8 +164,7 @@ class TaskController extends Controller
         $model = Task::filterByUser( is_user_can( 'task_delete_other' ) ? 'all' : auth()->user() )
             ->findOrFail( $model );
         $model->delete();
-        AlertHelper::make( lang( 'Operation successful' ) );
-        return back();
+        return _api_response( true );
     }
 
     /**
@@ -183,5 +183,18 @@ class TaskController extends Controller
                 ->orWhere( 'description', 'LIKE', "%$request->search%" );
 
         return $models->get();
+    }
+
+    public function validation( $request )
+    {
+        $request->validate( [
+            'title' => 'required',
+            'description' => 'required',
+            'priority' => 'required|numeric|min:0',
+        ], [
+            'title.required' => lang( 'Please enter title' ),
+            'description.required' => lang( 'Please enter description' ),
+            'priority.required' => lang( 'Please enter Priority' ),
+        ] );
     }
 }
