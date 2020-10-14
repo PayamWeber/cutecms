@@ -10,7 +10,7 @@ class Page extends BaseModel
 {
     use SafeMethods, SoftDeletes;
 
-	protected $table = 'page';
+	protected $table = 'pages';
 
 	const STATUS_DRAFT   = 5;
 	const STATUS_PUBLISH = 10;

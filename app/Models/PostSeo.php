@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class PostSeo extends BaseModel
 {
-    protected $table = 'post_seo';
+    protected $table = 'posts_seo';
 
     public $timestamps = false;
 

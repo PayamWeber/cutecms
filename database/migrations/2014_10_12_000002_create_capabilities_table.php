@@ -15,7 +15,7 @@ class CreateCapabilitiesTable extends Migration
     {
         Schema::create( 'capabilities', function ( Blueprint $table ) {
             $table->increments( 'id' );
-            $table->unsignedTinyInteger( 'parent' );
+            $table->unsignedInteger( 'parent' );
             $table->string( 'name' );
             $table->string( 'title' );
             $table->text( 'route' );

@@ -25,9 +25,9 @@ class CreateMediaTable extends Migration
             $table->string( 'full_path' )->nullable(true)->default(null);
             $table->string( 'type' )->nullable(true)->default(null);
             $table->unsignedBigInteger( 'size' )->nullable(true)->default(0);
-            $table->timestamp();
+            $table->timestamps();
 
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('set_null');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete(null);
         } );
     }
 
