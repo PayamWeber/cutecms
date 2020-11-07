@@ -1,6 +1,6 @@
 # Warning: App is not completely ready yet. But you are free to use it :)
-# TodoApp
-Hi, this is a project named TodoCMS made for showing off my skills in laravel and php.
+# CuteCMS
+Hi, this is a project named CuteCMS made for showing off my skills in laravel and php.
 
 Nice to see that you wanna use this app, enjoy!
 
