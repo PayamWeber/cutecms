@@ -1,4 +1,3 @@
-# Warning: App is not completely ready yet. But you are free to use it :)
 # CuteCMS
 Hi, this is a project named CuteCMS made for showing off my skills in laravel and php.
 
